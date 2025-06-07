@@ -1,0 +1,14 @@
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\bin\Debug\net8.0\ServerApp.exe
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\bin\Debug\net8.0\ServerApp.deps.json
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\bin\Debug\net8.0\ServerApp.runtimeconfig.json
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\bin\Debug\net8.0\ServerApp.dll
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\bin\Debug\net8.0\ServerApp.pdb
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\obj\Debug\net8.0\ServerApp.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\obj\Debug\net8.0\ServerApp.AssemblyInfoInputs.cache
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\obj\Debug\net8.0\ServerApp.AssemblyInfo.cs
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\obj\Debug\net8.0\ServerApp.csproj.CoreCompileInputs.cache
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\obj\Debug\net8.0\ServerApp.dll
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\obj\Debug\net8.0\refint\ServerApp.dll
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\obj\Debug\net8.0\ServerApp.pdb
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\obj\Debug\net8.0\ServerApp.genruntimeconfig.cache
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ServerApp\obj\Debug\net8.0\ref\ServerApp.dll

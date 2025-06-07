@@ -1,0 +1,14 @@
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\bin\Debug\net8.0\ClientApp.exe
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\bin\Debug\net8.0\ClientApp.deps.json
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\bin\Debug\net8.0\ClientApp.runtimeconfig.json
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\bin\Debug\net8.0\ClientApp.dll
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\bin\Debug\net8.0\ClientApp.pdb
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\obj\Debug\net8.0\ClientApp.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\obj\Debug\net8.0\ClientApp.AssemblyInfoInputs.cache
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\obj\Debug\net8.0\ClientApp.AssemblyInfo.cs
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\obj\Debug\net8.0\ClientApp.csproj.CoreCompileInputs.cache
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\obj\Debug\net8.0\ClientApp.dll
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\obj\Debug\net8.0\refint\ClientApp.dll
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\obj\Debug\net8.0\ClientApp.pdb
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\obj\Debug\net8.0\ClientApp.genruntimeconfig.cache
+Z:\Desktop\SU25\PRN222\tientd17\Demo_PRN222_SE1837\ClientApp\obj\Debug\net8.0\ref\ClientApp.dll

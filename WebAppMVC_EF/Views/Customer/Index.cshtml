@@ -1,0 +1,84 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@using WebAppMVC_EF.Models
+@{
+}
+
+Information of Customer:
+<table>
+	<tr>
+		<td>Id:</td>
+		<td>
+			<input type="text" />
+		</td>
+		<td>Name:</td>
+		<td>
+			<input type="text" />
+		</td>
+	</tr>
+	<tr>
+		<td>BirthDate</td>
+		<td>
+			<input type="text" />
+		</td>
+		<td>Gender</td>
+		<td>
+			<input type="radio" value="Male" name="gender" onselect="" />Male
+			<input type="radio" value="Female" name="gender" />Female
+		</td>
+	</tr>
+	<tr>
+		<td>Address</td>
+		<td>
+			<input type="text" />
+		</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>
+			<input type="submit" value="ADD" name="add" />
+		</td>
+		<td>
+			<input type="submit" value="UPDATE" name="update" />
+		</td>
+	</tr>
+</table>
+<br />
+
+<form asp-action="Index" method="get">
+	Sort by:
+	<select name="sortBy">
+		<option value="Name">Name</option>
+	</select>
+	<input type="radio" name="sortOrder" value="ASC" checked />ASC
+	<input type="radio" name="sortOrder" value="DESC" />DESC
+	<input type="submit" value="SORT" />
+</form>
+
+List Customers:
+
+<table border="1">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Name</th>
+			<th>BirthDate</th>
+			<th>Gender</th>
+			<th>Address</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+
+	@foreach (Customer c in ViewBag.lsCustomers)
+	{
+		<tr>
+			<td>@c.CustomerId</td>
+			<td>@c.CustomerName</td>
+			<td>@(c.Birthdate.ToString("MM/dd/yyyy"))</td>
+			<td>@(c.Gender == true ? "Male" : "Female")</td>
+			<td>@c.Address</td>
+			<td><a asp-controller="" asp-action="">Delete</a></td>
+		</tr>
+	}
+
+</table>

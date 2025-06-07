@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ServerApp2\\ServerApp2.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ClientApp2\\ClientApp2.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

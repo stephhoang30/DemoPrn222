@@ -1,0 +1,101 @@
+﻿@using WebAppMVC_EF.Models
+
+@{
+
+}
+
+Information of Product:
+
+<table>
+	<tr>
+		<td>Code:</td>
+		<td>
+			<input type="text" name="code" />
+		</td>
+		<td>Name:</td>
+		<td>
+			<input type="text" name="name" />
+		</td>
+	</tr>
+	<tr>
+		<td>Price:</td>
+		<td>
+			<input type="text" name="price"/>
+		</td>
+		<td>Stock:</td>
+		<td>
+			<input type="text" name="stock"/>
+		</td>
+	</tr>
+	<tr>
+		<td>Image:</td>
+		<td>
+			<input type="text" name="image"/>
+		</td>
+		<td>Category:</td>
+		<td>
+			<select>
+				<option value="0">All Categories</option>
+				@foreach(Category category in ViewBag.categories)
+				{
+					<option value="@category.CategoryId">@category.CategoryName</option>
+				}
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="submit" value="ADD" name="add" />
+		</td>
+		<td>
+			<input type="submit" value="UPDATE" name="update" />
+		</td>
+	</tr>
+</table>
+
+<br />
+
+<form method="get">
+	List Categories:
+	<select name="filCate">
+		<option value="0">All Categories</option>
+		@foreach (Category category in ViewBag.categories)
+		{
+			<option value="@category.CategoryId" @((ViewBag.filCate == category.CategoryId) ? "selected" : "")>
+				@category.CategoryName
+			</option>
+		}
+	</select>
+	<input type="submit" value="Filter" name="filter" />
+</form>
+
+List Products:
+<table border="1">
+	<thead>
+		<tr>
+			<th>Code</th>
+			<th>Name</th>
+			<th>Price</th>
+			<th>Stock</th>
+			<th>Image</th>
+			<th>Category</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+
+	@foreach(Product p in ViewBag.lsProducts)
+	{
+		<tr>
+			<td>@p.ProductId</td>
+			<td>@p.ProductName</td>
+			<td>@p.UnitPrice</td>
+			<td>@p.UnitsInStock</td>
+			<td>@p.Image</td>
+			<td>@p.Category?.CategoryName</td>
+			<td><a asp-controller="" asp-action="">Delete</a></td>
+		</tr>
+	}
+
+</table>
+
+	

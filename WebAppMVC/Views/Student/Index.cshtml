@@ -1,0 +1,69 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+    // use to write Comment
+*@
+@{
+	// write C# code
+	string welcome = "Welcome to Student management";
+
+}
+@using WebAppMVC.Models
+@model List<Student>
+@welcome
+<br />
+@if (ViewBag.student.Code != null)
+{
+	@ViewBag.message
+}
+<br />
+Code: @ViewBag.student.Code
+<br />
+Name: @ViewBag.student.Name
+<br />
+Mark:
+@if (ViewBag.student.Code != null)
+{
+	@ViewBag.student.Mark
+}
+<br />
+<a asp-controller="Student" asp-action="Add">Add new student</a>
+<br />
+List of Students:
+<br />
+
+<form asp-controller="Student" asp-action="Index" method="get">
+	Sort by:
+	<select name="sortField">
+		<option value="Code">Code</option>
+		<option value="Name">Name</option>
+		<option value="Mark">Mark</option>
+	</select>
+	<input type="radio" name="sortOrder" value="ASC" @(ViewBag.sortOrder == "ASC" ? "checked" : "") />ASC
+	<input type="radio" name="sortOrder" value="DESC" @(ViewBag.sortOrder == "DESC" ? "checked" : "") />DESC
+	<input type="submit" name="btnSort" value="SORT" />
+</form>
+
+<table class="table table-primary table-hover table-bordered">
+
+	<thead>
+		<tr class="table-danger">
+			<th>Code</th>
+			<th>Name</th>
+			<th>Mark</th>
+			<th></th>
+		</tr>
+	</thead>
+
+	<tbody>
+		@foreach (Student item in Model)
+		{
+			<tr>
+				<td><a asp-asp-controller="Student" asp-action="Update" asp-route-code="@item.Code">@item.Code</a></td>
+				<td>@item.Name</td>
+				<td>@item.Mark</td>
+				<td><a asp-asp-controller="Student" asp-action="Delete" asp-route-code="@item.Code">Delete</a></td>
+			</tr>
+		}
+	</tbody>
+</table>
